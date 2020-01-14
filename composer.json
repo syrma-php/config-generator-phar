@@ -1,0 +1,19 @@
+{
+    "name": "syrma/config-generator-phar",
+    "description": "Tool for config management",
+    "type": "project",
+    "require": {
+        "php": "^7.1",
+	"ext-phar": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tamas Szijarto",
+            "email": "szijarto.tamas.developer@gmail.com"
+        }
+    ],
+    "bin": [
+        "config-generator.phar"
+    ]
+}
